@@ -1,0 +1,35 @@
+{
+  "name": "express-app-file-form-upload-demo",
+  "version": "1.0.0",
+  "description": "This is a repo as part of a blog post on how to achieve creating a web form that submit's users files to a temporary folder on your Node.js app's server.   ",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "keywords": [
+    "file",
+    "upload",
+    "node",
+    "file",
+    "form",
+    "form",
+    "data",
+    "upload",
+    "files",
+    "to",
+    "server"
+  ],
+  "author": "Jesse Lewis",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "multer": "^1.3.0",
+    "nodemon": "^1.12.1"
+  }
+}
