@@ -20,4 +20,5 @@ Get over to github and clone or fork/clone… (if you want to help me make it be
  I included the nodemon package in this project, so to run this solution on your localhost just type the following code. As you make changes, nodemon will automatically re-run it for you -neato, huh?
  ```nodemon App.js ```
  
-4 Visit http://localhost:3000 in your web browser to check out this solution. 
+4. VIEW/TEST LOCAL
+ Visit http://localhost:3000 in your web browser to check out this solution. 
