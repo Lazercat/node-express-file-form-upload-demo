@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Express File Upload</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -15,7 +15,8 @@
   <div class="jumbotron">
     <div class="container text-center">
       <h1>Express App File Uploads</h1>
-      <p>An example that upload a user file to your local server.</p>
+      <p>An example that uploads a user's file to your local server.</p>
+      <p>Read more online at: <a href="#">Blog Post </a></p>
     </div>
   </div>
 
@@ -29,9 +30,8 @@
 
   <div class="container text-center">
       <div class="col-sm-12">
-
         <div class="form">
-          <h1>Upload a photo!<span></span></h1>
+          <h1>Upload a photo!</h1>
 
            <!-- IMAGE UPLOAD FORM -->
           <form action="/upload" enctype="multipart/form-data" method="POST">
@@ -46,9 +46,9 @@
 
             </div>
           </form>
+
+
         </div>
-
-
       </div>
   </div>
 

@@ -28,6 +28,7 @@
         background: #F8F8F8;
         border-radius: 6px;
         margin-bottom: 15px;
+        font-size: 22px;
     }
     .form h1{
         background: #2A88AD;
@@ -44,11 +45,6 @@
         box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
         border: 1px solid #257C9E;
     }
-    .form h1 > span{
-        display: block;
-        margin-top: 2px;
-        font: 13px Arial, Helvetica, sans-serif;
-    }
     .form label{
         display: block;
         font: 13px Arial, Helvetica, sans-serif;
@@ -62,6 +58,7 @@
         -moz-box-sizing: border-box;
         width: 100%;
         padding: 8px;
+        font-size:14px;
         border-radius: 6px;
         -webkit-border-radius:6px;
         -moz-border-radius:6px;

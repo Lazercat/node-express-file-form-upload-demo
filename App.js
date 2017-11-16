@@ -1,6 +1,7 @@
 /***************************************************************
-  node.js express app file form server upload demo
-  Written by: Jesse Lewis
+  node.js express app file form server upload w/ Multer demo
+  App created by:  Jesse Lewis
+  Original strategy used developed by Ashish Mehra via Youtube @ https://www.youtube.com/watch?v=sMnqnvW81to&lc=z23htp54jwmhwni0nacdp43axbwhgu3y3fg0jwzwhatw03c010c
 ***************************************************************/
 
   // RUN PACKAGES
@@ -48,6 +49,7 @@
           next(null, true);
         }else{
           console.log("file not supported")
+          //TODO:  A better message response to user on failure.
           return next();
         }
     }
@@ -64,7 +66,7 @@
       //Here is where I could add functions to then get the url of the new photo
       //And relocate that to a cloud storage solution with a callback containing its new url
       //then ideally loading that into your database solution.   Use case - user uploading an avatar...
-      res.send('everything was a smashing success.  Check out your public/photo-storage folder');
+      res.send('Complete! Check out your public/photo-storage folder.  Please note that files not encoded with an image mimetype are rejected. <a href="index.html">try again</a>');
   }
 
 );
