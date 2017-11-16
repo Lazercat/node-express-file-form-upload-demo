@@ -1,6 +1,9 @@
 # node-express-file-form-upload-demo
 This is a repo as part of a blog post on how to achieve creating a web form that submit's users files to a temporary folder on your Node.js app's server.   
 
+## Blog Post/Tutorial
+https://medium.com/@Moonstrasse/how-to-make-a-basic-html-form-file-upload-using-multer-in-an-express-node-js-app-16dac2476610
+
 
 ### Node.js Solution Dependencies
 -express
