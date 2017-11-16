@@ -1,8 +1,9 @@
 /***************************************************************
   node.js express app file form server upload w/ Multer demo
   App created by:  Jesse Lewis
-  Original strategy used developed by Ashish Mehra via Youtube @ https://www.youtube.com/watch?v=sMnqnvW81to&lc=z23htp54jwmhwni0nacdp43axbwhgu3y3fg0jwzwhatw03c010c
-***************************************************************/
+  Multer Config used based on tutorial by Ashish Mehra via Youtube
+  @ https://www.youtube.com/watch?v=sMnqnvW81to&lc=z23htp54jwmhwni0nacdp43axbwhgu3y3fg0jwzwhatw03c010c
+******************************************************************************************************/
 
   // RUN PACKAGES
   const express = require('express');
@@ -37,7 +38,10 @@
         //set the file fieldname to a unique name containing the original name, current datetime and the extension.
         next(null, file.fieldname + '-' + Date.now() + '.'+ext);
       }
-    }),fileFilter: function(req, file, next){
+    }),
+
+    // filter out and prevent non-image files.
+    fileFilter: function(req, file, next){
           if(!file){
             next();
           }
